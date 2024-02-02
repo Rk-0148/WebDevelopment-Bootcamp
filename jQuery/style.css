@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 50px;
+}
+
+.btn > button {
+  height: 40px;
+  width: 100px;
+  margin-right: 30px;
+  background-color: blanchedalmond;
+  color: rgb(13, 0, 255);
+}
+
+.big-title {
+  font-size: 150px;
+  color: darkblue;
+  font-family: monospace;
+}
