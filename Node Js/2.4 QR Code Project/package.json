@@ -1,18 +1,19 @@
 {
-  "type": "module",
-  "dependencies": {
-    "inquirer": "^9.2.16",
-    "qr-image": "^3.2.0"
-  },
-  "name": "2.4-qr-code-project",
+  "name": "webdevelopment-bootcamp",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "qr-image": "^3.2.0",
+    "sillyname": "^0.1.0",
+    "superheroes": "^3.0.0"
+  }
 }
