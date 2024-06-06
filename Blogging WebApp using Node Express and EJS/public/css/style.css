@@ -1,0 +1,120 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Blog post list */
+.post-list {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+/* Create post form */
+.create-form {
+  margin-top: 20px;
+}
+
+.create-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-form input[type="text"],
+.create-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.create-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.create-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Individual post */
+.post {
+  margin-top: 20px;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 20px;
+}
+
+.post a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
