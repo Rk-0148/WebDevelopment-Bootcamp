@@ -1,0 +1,14 @@
+Things to do before learning the React Js library :
+1) Variables : Hoisting
+2) Functions : Arrow Functions, Callback Functions, High Order Functions
+3) Array and Objects : destructuring, rest, spread operator
+4) Conditional Operators
+5) Optional Chaining
+6) Array methods : Map Filter Reduce
+7) Event Listeners : 
+	onClick
+	onSubmit
+8) Intervals
+9) Callbacks, Callbacks hell, Promises
+10) async and await
+11) try/catch
